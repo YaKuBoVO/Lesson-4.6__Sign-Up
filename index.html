@@ -9,36 +9,61 @@
 </head>
 
 <body>
-   <section id="parentSection">
+   <div class="cont">
+      <div class="form sign-in">
+         <h2>Welcome back</h2>
+         <label>
+            <span>Name</span>
+            <input type="text" />
+         </label>
+         <label>
+            <span>Email</span>
+            <input type="email" />
+         </label>
+         <label>
+            <span>Password</span>
+            <input type="password" />
+         </label>
+         <button type="button" class="submit">Sign In</button>
+         <button type="button" class="fb-btn">John with <span>facebook</span></button>
+      </div>
 
-      <div class="container" id="container">
 
-         <div class="container-left" id="container-left">
-            <h1 class="heading-title__left">One of us?</h1>
-            <p>if you already has an account, <br> just sign in. We've missed you!</p>
-
-            <button type="button" class="btn-left">SIGN IN</button>
+      <div class="left-Ctn" id="left-Ctn">
+         <div class="img">
+            <div class="img__text m--up">
+               <h2>New here?</h2>
+               <p>if you already has an account, <br> just sign in. We've missed you!</p>
+            </div>
+            <div class="img__text m--in">
+               <h2 class="heading-title__left">One of us?<h2>
+                     <p>Sign up and discover great <br> amount of new opportunities!</p>
+            </div>
+            <div class="img-btn">
+               <span class="m--up">Sign Up</span>
+               <span class="m--in">Sign In</span>
+            </div>
          </div>
 
-
-         <div class="form-container__right signUp-container__right">
-            <h1>Time to feel like home,</h1>
-            
-            <form action="#" class="form-control">
-               <input type="text" id="name" name="name" placeholder="NAME"> <br>
-
-               <input type="email" name="emil" id="input-email" placeholder="EMAIL"> <br>
-
-               <input type="password" name="password" id="inputpassword" placeholder="PASSWORD"> <br>
-
-               <button type="submit" class="submitBtn" id="submitBtn">SIGN UP</button> <br>
-
-               <button type="button" id="socialButton">john with <span>facebook</span></button>
-            </form>
+         <div class="form sign-up">
+            <h2>Time to feel like home</h2>
+            <label>
+               <span>Name</span>
+               <input type="text" />
+            </label>
+            <label>
+               <span>Email</span>
+               <input type="email" />
+            </label>
+            <label>
+               <span>Password</span>
+               <input type="password" />
+            </label>
+            <button type="button" class="submit">Sign Up</button>
+            <button type="button" class="fb-btn">John with <span>facebook</span></button>
          </div>
       </div>
-   </section>
-
+   </div>
    <script src="script.js"></script>
 </body>
 
